@@ -2,7 +2,7 @@
 setwd("C:/OPT/Data/Coursera/Data_Exp_Ana")
 
 # Reading data into R.
-data1 <- read.table('household_power_consumption.txt',sep=";", header=TRUE, quote= "", strip.white=TRUE, stringsAsFactors = FALSE, na.strings= "?")
+data1 <- read.table('household_power_consumption.txt', sep=";", header=TRUE, quote= "", strip.white=TRUE, stringsAsFactors = FALSE, na.strings= "?")
 
 # Subsetting the full data to obtain the data related to two days.
 data2 <- subset(data1, (data1$Date == "1/2/2007" | data1$Date== "2/2/2007"))
