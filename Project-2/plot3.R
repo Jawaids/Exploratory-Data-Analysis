@@ -3,8 +3,6 @@
 # Which have seen increases in emissions from 1999¨C2008? 
 # Use the ggplot2 plotting system to make a plot answer this question.
 
-# Check if both data exist in the environment. If not, load the data.
-
 library(ggplot2)
 
 setwd("C:/OPT/Data/Coursera/Data_Exp_Ana/Project-2")
