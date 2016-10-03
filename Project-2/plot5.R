@@ -1,4 +1,4 @@
-# How have emissions from motor vehicle sources changed from 1999¨C2008 in Baltimore City?
+# How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
 
 setwd("C:/OPT/Data/Coursera/Data_Exp_Ana/Project-2")
 

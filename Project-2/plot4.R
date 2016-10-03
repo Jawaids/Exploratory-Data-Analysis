@@ -1,5 +1,5 @@
 # Across the United States, how have emissions from coal combustion-related sources changed 
-# from 1999¨C2008?
+# from 1999-2008?
 
 setwd("C:/OPT/Data/Coursera/Data_Exp_Ana/Project-2")
 
