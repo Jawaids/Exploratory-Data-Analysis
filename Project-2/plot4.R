@@ -6,8 +6,6 @@ setwd("C:/OPT/Data/Coursera/Data_Exp_Ana/Project-2")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
-# Checking names: head(SCC$Short.Name)
-
 par("mar"=c(5.1, 4.5, 4.1, 2.1))
 png(filename = "./plot4.png", width =504, height = 504, units = "px")
 coal <- grep("coal", SCC$Short.Name, ignore.case = T)
